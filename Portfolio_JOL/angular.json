@@ -27,9 +27,12 @@
               "src/assets"
             ],
             "styles": [
+              "C:/Users/Jorge/Desktop/Proyecto Integrador/Portfolio_JOL/node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "C:/Users/Jorge/Desktop/Proyecto Integrador/Portfolio_JOL/node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
