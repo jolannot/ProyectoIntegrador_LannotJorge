@@ -4,7 +4,7 @@ app-banner{
 }
 app-logo-ap{
     position: absolute;
-    margin-top: -13px;
+    margin-top: 10px;
     z-index: 1;
 }
 app-redes{
@@ -12,13 +12,4 @@ app-redes{
     right: 8px;
     position: absolute;
     z-index: 1;
-}
-#nombre{
-    position: absolute;
-    margin-top: 150px;
-    margin-left: 10px;
-    z-index: 2;
-    color: rgb(135, 181, 213);
-    height: 200px;
-    font: serif;
 }

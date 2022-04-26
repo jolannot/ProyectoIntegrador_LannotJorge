@@ -1,14 +1,13 @@
 #instagram {
-    width: 90px;
-    margin-right: 10;
+    width: 50px;
 }
 
 #linkedin {
-    margin-left: -5px;
-    width: 55px;
+    width: 50px;
+    margin-left: 8px;
 }
 
 #github {
-    margin-left: 10px;
-    width: 58px;
+    margin-left: 8px;
+    width: 50px;
 }
