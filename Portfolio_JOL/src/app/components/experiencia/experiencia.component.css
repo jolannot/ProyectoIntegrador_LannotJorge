@@ -1,0 +1,19 @@
+.row {
+    padding: 2%;
+}
+
+div{
+    background-color: aliceblue;
+}
+
+#trabajos {
+    position: absolute;
+}
+
+h1, h3{
+    display: inline;
+}
+
+#img {
+    height: 200px;
+}
