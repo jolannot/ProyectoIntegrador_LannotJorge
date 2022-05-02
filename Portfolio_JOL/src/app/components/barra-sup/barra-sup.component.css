@@ -1,0 +1,24 @@
+.container_sup {
+    position: absolute;
+    display: grid; 
+    grid-template-columns: 15% 70% 15%; 
+    grid-template-rows: 100px; 
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+
+
+  
+
+#logo-ap{
+    padding: 5%;
+    z-index: 1;
+}
+#app-redes{
+    padding: 5%;
+    z-index: 1;
+    justify-content: end;
+    margin-right: 0%;
+}
+
