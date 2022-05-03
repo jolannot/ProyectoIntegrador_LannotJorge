@@ -1,6 +1,7 @@
 .row {
     padding: 2%;
     position: absolute;
+    min-width: 97%;
 }
 
 div{

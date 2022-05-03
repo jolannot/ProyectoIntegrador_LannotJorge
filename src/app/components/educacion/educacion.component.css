@@ -1,6 +1,7 @@
 .row {
     padding: 2%;
     position: absolute;
+    min-width: 97%;
 }
 
 div{
@@ -32,7 +33,7 @@ li {
 }
  
 
-#trimg {
+#estimg {
     height: 120px;
     border-radius: 25%;
 }

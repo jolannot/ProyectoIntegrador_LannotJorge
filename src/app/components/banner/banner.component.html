@@ -1,32 +1,36 @@
 <div class="container">
-    <div ></div>
-    <div ></div>
-    <div ></div>
-    <div ></div>
-    <div ></div>
-    <div ></div>
-    <div id="nombre">Jorge</div>
-    <div ></div>
-    <div > <p>boton</p></div>
-    <div ></div>
-    <div ><p>boton</p></div>
-    <div ></div>
-    <div id="nombre">Octavio</div>
-    <div ></div>
-    <div ><p>boton</p></div>
-    <div id="foto"><app-foto></app-foto></div>
-    <div ><p>boton</p></div>
-    <div ></div>
-    <div id="nombre">Lannot</div>
-    <div ></div>
-    <div ></div>
-    <div ><p>boton</p></div>
-    <div ></div>
-    <div ></div>
-    <div ></div>
-    <div ></div>
-    <div ></div>
-    <div ></div>
-    <div ></div>
-    <div ></div>
+    <div id="jorge" class="col text-center">
+      <p id="nombre">Jorge</p> 
+    </div>
+    <div id="octavio" class="col text-center">
+      <p id="nombre">Octavio</p> 
+    </div>
+    <div id="lannot" class="col text-center">
+      <p id="nombre">Lannot</p> 
+    </div>
+    
+    <div id="yo" class="col text-center">
+      <app-foto id="foto"></app-foto>
+    </div>
+
+    <div id="botones" class="col text-center"> 
+      <p>
+
+          <button type="button" class="btn btn-light btn-primary btn-lg" onclick="location.href='app-acerca-de'" id="acercademibtn">Acerca de mí</button>
+      </p>
+      <p>
+        <button type="button" class="btn btn-light btn-primary btn-lg" id="experienciabtn">Experiencia</button>
+      </p>
+      <p>
+        <button type="button" class="btn btn-light btn-primary btn-lg" id="educacionbtn">Educación</button>
+      </p> 
+      <p>
+        <button type="button" class="btn btn-light btn-primary btn-lg" id="hysbtn">Skills</button>
+      </p>
+    </div>
+    <div id="contacto" class="col text-center"> 
+      <p>
+        <button type="button" class="btn btn-danger btn-primary btn-lg" id="contactobtn">Contacto</button>
+      </p>
+    </div>
   </div>
