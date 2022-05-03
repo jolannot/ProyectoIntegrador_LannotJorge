@@ -15,6 +15,7 @@ import { FotoComponent } from './components/foto/foto.component';
 import { BarraSupComponent } from './components/barra-sup/barra-sup.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { EducacionComponent } from './components/educacion/educacion.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AcercaDeComponent,
     FotoComponent,
     BarraSupComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    EducacionComponent
   ],
   imports: [
     BrowserModule,
