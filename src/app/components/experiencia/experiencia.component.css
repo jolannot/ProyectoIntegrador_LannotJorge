@@ -1,6 +1,6 @@
 .row {
     padding: 2%;
-    position: absolute;
+    position: relative;
     min-width: 97%;
 }
 
@@ -30,6 +30,7 @@ li img {
 li {
   padding: 10px;
   overflow: auto;
+  align-items: center;
 }
  
 

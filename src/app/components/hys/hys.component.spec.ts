@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BarraSupComponent } from './barra-sup.component';
+import { HysComponent } from './hys.component';
 
-describe('BarraSupComponent', () => {
-  let component: BarraSupComponent;
-  let fixture: ComponentFixture<BarraSupComponent>;
+describe('HysComponent', () => {
+  let component: HysComponent;
+  let fixture: ComponentFixture<HysComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BarraSupComponent ]
+      declarations: [ HysComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BarraSupComponent);
+    fixture = TestBed.createComponent(HysComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

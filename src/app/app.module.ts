@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 import { HeaderComponent } from './components/header/header.component';
 import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
@@ -16,6 +17,7 @@ import { BarraSupComponent } from './components/barra-sup/barra-sup.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { EducacionComponent } from './components/educacion/educacion.component';
+import { HysComponent } from './components/hys/hys.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,8 @@ import { EducacionComponent } from './components/educacion/educacion.component';
     FotoComponent,
     BarraSupComponent,
     ExperienciaComponent,
-    EducacionComponent
+    EducacionComponent,
+    HysComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,8 @@ import { EducacionComponent } from './components/educacion/educacion.component';
 
     FormsModule,
     SlickCarouselModule,
-    BrowserAnimationsModule 
+    BrowserAnimationsModule,
+    NgCircleProgressModule.forRoot({}) 
   ],
   providers: [],
   bootstrap: [AppComponent]
